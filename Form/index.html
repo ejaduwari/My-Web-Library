@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>RSVP</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <form>
+        <div class="form-text">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" Placeholder="First Name">
+        </div>
+        <div class="form-text">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname" Placeholder="Last Name">
+        </div>
+        <div class="form-radio">
+            <input type="radio" id="yes" name="rsvp">
+            <label for="yes">Joyfully Accept</label>
+        </div>
+        <div class="form-radio">
+            <input type="radio" id="no" name="rsvp">
+            <label for="no">Regrettably decline</label>
+        </div>
+        <div class="form-select">
+            <label for="guest">Number of Guests</label>
+            <select id="guest" name="guest">
+                <option value="none" selected>None</option>
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+            </select>
+        </div>
+        <div class="form-text">
+            <label for="gname">Names of Guests</label>
+            <input type="text" id="gname" name="gname" Placeholder="Name(s)">
+        </div>
+        <div class="form-text">
+            Dietary Restrictions
+            <textarea name="diet" placeholder="Restriction(s)"></textarea>
+        </div>
+        
+    </form>
+</body>
+</html>
